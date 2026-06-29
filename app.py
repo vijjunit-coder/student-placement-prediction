@@ -31,7 +31,7 @@ cgpa = st.number_input(
     "CGPA",
     min_value=0.0,
     max_value=10.0,
-    step=1
+    step=0.5
 )
 
 backlogs = st.number_input("Backlogs", min_value=0)
